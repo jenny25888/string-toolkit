@@ -1,6 +1,6 @@
 {
   "name": "@jenny2588/string-toolkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small library for string manipulation like toSnakeCase.",
   "type": "commonjs",
   "source": "src/index.js",
