@@ -1,5 +1,5 @@
 {
-  "name": "@jenny25888/string-toolkit",
+  "name": "@jenny2588/string-toolkit",
   "version": "1.0.0",
   "description": "A small library for string manipulation like toSnakeCase.",
   "type": "module",
@@ -22,7 +22,7 @@
     "utility",
     "javascript"
   ],
-  "author": "Jenny 25888 <if23b171@technikum-wien.at",
+  "author": "Jenny 2588 <if23b171@technikum-wien.at",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jenny25888/string-toolkit/issues"
