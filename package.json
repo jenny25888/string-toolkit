@@ -1,25 +1,35 @@
 {
-  "name": "string-toolkit",
+  "name": "@jenny25888/string-toolkit",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "description": "A small library for string manipulation like toSnakeCase.",
+  "type": "module",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
   "scripts": {
-    "test": "Jest"
+    "build": "microbundle",
+    "pretest": "npm run build",
+    "test": "npx jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jenny25888/string-toolkit.git"
   },
-  "author": "jenny",
+  "keywords": [
+    "string",
+    "snakecase",
+    "utility",
+    "javascript"
+  ],
+  "author": "Jenny 25888 <if23b171@technikum-wien.at",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jenny25888/string-toolkit/issues"
   },
   "homepage": "https://github.com/jenny25888/string-toolkit#readme",
-  "description": "",
-  "dependencies": {
-    "jest": "^29.7.0"
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "microbundle": "^0.15.1"
   }
 }
