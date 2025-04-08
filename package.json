@@ -1,0 +1,25 @@
+{
+  "name": "string-toolkit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenny25888/string-toolkit.git"
+  },
+  "author": "jenny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenny25888/string-toolkit/issues"
+  },
+  "homepage": "https://github.com/jenny25888/string-toolkit#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
