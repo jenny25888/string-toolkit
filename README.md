@@ -30,7 +30,7 @@ yarn add @jenny25888/string-toolkit
 Basic Usage to toSnakeCase Import:
 
 ```js
-import { toSnakeCase } from '@jenny25888/string-toolkit';
+import { toSnakeCase } from '@jenny2588/string-toolkit';
 
 ```
 
@@ -39,7 +39,7 @@ import { toSnakeCase } from '@jenny25888/string-toolkit';
 Convert a string to snake_case::
 
 ```js
-import { toSnakeCase } from '@jenny25888/string-toolkit';
+import { toSnakeCase } from '@jenny2588/string-toolkit';
 
 const title = "Hello World";
 console.log(toSnakeCase(title)); // hello_world

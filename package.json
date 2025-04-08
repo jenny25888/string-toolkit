@@ -2,7 +2,7 @@
   "name": "@jenny2588/string-toolkit",
   "version": "1.0.1",
   "description": "A small library for string manipulation like toSnakeCase.",
-  "type": "module",
+  "type": "commonjs",
   "source": "src/index.js",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
