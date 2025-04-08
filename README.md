@@ -1,13 +1,13 @@
 # @yjenny25888/string-toolkit (Class 3 Exercise)
 
 > A small utility library that helps you manipulate strings.  
-> Version 1.0.0 includes a single feature: converting strings to `snake_case`.
+> Version 1.1.0 includes two features: converting strings to `snake_case` and `kebab-case`.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-   - [Examples](#examples) → `toSnakeCase("Hello World")` → `hello_world`
+   - [Examples](#examples) → `toSnakeCase("Hello World")` → `hello_world` , `toKebabCase("hello-world")` -> `Hello World`
 - [Contribution](#contribution)
 - [Security](#security)
 - [License](#license)
@@ -17,12 +17,12 @@
 Install via npm:
 
 ```bash
-npm install @jenny25888/string-toolkit
+npm install @jenny2588/string-toolkit
 ```
 Install via yarn:
 
 ```bash
-yarn add @jenny25888/string-toolkit
+yarn add @jenny2588/string-toolkit
 ```
 
 ## Usage
@@ -39,10 +39,11 @@ import { toSnakeCase } from '@jenny2588/string-toolkit';
 Convert a string to snake_case::
 
 ```js
-import { toSnakeCase } from '@jenny2588/string-toolkit';
+import { toSnakeCase, toKebabCase } from '@jenny2588/string-toolkit';
 
 const title = "Hello World";
-console.log(toSnakeCase(title)); // hello_world
+console.log(toSnakeCase(title)); 
+console.log(toKebabCase(title)); 
 
 ```
 
